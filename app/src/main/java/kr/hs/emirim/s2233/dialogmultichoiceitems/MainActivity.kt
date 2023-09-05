@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
                 dialog, index, isChecked ->
                 btn.text = animalArray[index]
             }
+
             dlg.setNegativeButton("닫기",null)
             dlg.show()
         }
